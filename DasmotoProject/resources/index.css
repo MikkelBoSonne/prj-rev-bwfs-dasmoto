@@ -1,0 +1,56 @@
+* {
+  font-family: helvetica;
+}
+h1 {
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  font-weight: bold;
+  font-family: helvetica;
+  width: 100%;
+  background-image: url(/home/mikkel/Pictures/pattern.jpeg);
+  background-size: 100% 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  background-size: 50% auto;
+  background-size: 3em 25%;
+  background-size: auto 6px;
+  background-size: auto auto;
+}
+#brushes {
+  background-color: mediumspringgreen;
+  font-size: 32px;
+  font-weight: 400;
+}
+#frames {
+  background-color: lightcoral;
+  font-size: 32px;
+  font-weight: 400;
+}
+#paint {
+  background-color: skyblue;
+  font-size: 32px;
+  font-weight: 400;
+}
+#text {
+  color: blue;
+}
+#h3 {
+  font-weight: bold;
+}
+#h4 {
+  font-weight: bold;
+}
+h2 {
+  color: white;
+}
